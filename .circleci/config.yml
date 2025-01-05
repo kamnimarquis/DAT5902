@@ -27,7 +27,7 @@ jobs:
           name: Run the Python script
           command: |
             . venv/bin/activate
-            python main.py  # Run the main script you provided
+            pytest test_main.py
 
 workflows:
   version: 2
