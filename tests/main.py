@@ -29,8 +29,7 @@ def map_country_to_continent(country_name):
     except:
         return 'Unknown'
 
-
-file_path = r'C:\Users\kamsj\Downloads\suicide-rate-male-female-who-mdb.csv'
+file_path = 'data/suicide-rate-male-female-who-mdb.csv'
 data = pd.read_csv(file_path)
 
 
