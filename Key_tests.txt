@@ -1,0 +1,38 @@
+##Key Tests 
+
+This document outlines the essential tests that the code must pass to ensure functionality and accuracy.
+
+1. Test: Loading the dataset
+File: tests and graphs/test_main.py
+Description: Verify that the dataset is loaded correctly and contains the expected columns (`Entity`, `Male Suicide Rate`, `Female Suicide Rate`).
+Expected Outcome: Dataset is loaded without errors and columns match expectations.
+
+2. Test: `test_title`
+File: tests and graphs/test_graph2.py
+Description: Confirm that the graph title matches "Top 10 Countries by Male and Female Suicide Rates."
+Expected Outcome:The title is correctly set.
+
+3. Test: `test_yaxis_labels`
+File: tests and graphs/test_graph2.py
+Description: Ensure the y-axis labels are "Male Suicide Rate (per 100,000)" and "Female Suicide Rate (per 100,000)."
+Expected Outcome: Labels match the expected text.
+
+4. Test: `test_scatter_points`
+File: tests and graphs/test_graph2.py
+Description: Verify that the scatter plot contains 10 data points for both male and female suicide rates.
+Expected Outcome: 10 male and 10 female points are plotted.
+
+5. Test: `test_invalid_country`
+File: File: tests and graphs/test_main.py
+Description: Verify that the code handles invalid or unrecognised country names gracefully (e.g., "InvalidCountry" should return a default value or error message).
+Expected Outcome: Invalid country names are handled without crashing the program, and a default response (e.g., "Unknown") is returned.
+
+6. Test: `test_legend`
+File: tests and graphs/test_graph2.py
+Description: Check that the legend contains entries for "Male Suicide Rate" and "Female Suicide Rate."
+Expected Outcome: Legend labels match expected values.
+
+7. Test: `test_case_insensitivity`
+File: tests and graphs/test_main.py
+Description: Ensure that the code correctly handles case-insensitive inputs for country names (e.g., "united states" should be treated the same as "United States").
+Expected Outcome: The function processes country names in a case-insensitive manner and returns consistent results regardless of capitalisation.
