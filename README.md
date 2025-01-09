@@ -1,7 +1,7 @@
 #### Author: Kamni Marquis - 230228315  DAT5902: Professional Software and Career Practices Final Project
 
 ## Overview:
-This project analyzes global suicide rates by gender using data from the **World Health Organization (WHO)**. The analysis focuses on identifying patterns and trends across countries and continents, with visualisations that highlight disparities between male and female suicide rates.
+This project analyzes global suicide rates by gender using data from the **Our world in Data**. The analysis focuses on identifying patterns and trends across countries and continents, with visualisations that highlight disparities between male and female suicide rates.
 
 ### Hypothesis:
 The suicide rate for males is higher than that for females across all countries and years, and social factors such as cultural norms and economic conditions contribute significantly to this disparity. 
