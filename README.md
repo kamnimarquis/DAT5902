@@ -6,6 +6,22 @@ This project analyzes global suicide rates by gender using data from the **World
 ### Hypothesis:
 The suicide rate for males is higher than that for females across all countries and years, and social factors such as cultural norms and economic conditions contribute significantly to this disparity. 
 
+### Project Structure:
+config.yml: CircleCI configuration file for automating the setup, testing, and execution of the Python script.
+data/: Folder containing the dataset (CSV file) with match statistics.
+graph images/: Folder where the generated images (graphs and charts) will be saved.
+tests and graphs/: Python script to read the dataset, process the data, and generate graphs and Unit tests to ensure data integrity, graph generation, and correct functionality of the code.
+key_tests.txt: File to provide a comprehensive description of the unit tests implemented in the project.
+requirements.txt: file that ensures all necessary dependencies for the project are installed correctly.
+
+### Dependencies:
+The project requires the following Python packages:
+pandas
+matplotlib
+unittest
+pytest
+pycountry-convert
+
 ## Data sources:
 - Our World in Data: https://ourworldindata.org/suicide
 
